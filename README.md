@@ -11,18 +11,22 @@ Louise is a playwright who was looking at using Kickstarter to crowdsource the f
 The first analysis was of Kickstarter outcomes based on their launch date. To achieve this comparison, some of the data needed to be reformatted: the launch date data needed to be converted from Unix timestamps to a readable format and the category/subcategory data needed to be split into parent category and subcategory. The date conversion was important to allow the data to be sorted by month and year. The splitting of the category wasn't strictly necessary to complete this task, but allowed the data to be more easily sorted. The analysis of the data was then accomplished via pivot table, as shown in Figure 1. The outcomes, either successful, failed, or canceled, were tabulated as a function of the month they were started in. The data was further filtered by the Parent Category of Theater.  This data was turned into a chart via PivotChart to allow ease of accessibility, which can be seen in Figure 2. 
 
 ![Theater_Outcomes_vs_Launch_Pivot.png](/Resources/Theater_Outcomes_vs_Launch_Pivot.png)
+
 Figure 1. Table of theater Kickstarter campaign outcomes as a function of launch date.
 
-![Theater_Outcomes_vs_Launch.png](kickstarter-analysis/Resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch.png](/Resources/Theater_Outcomes_vs_Launch.png)
+
 Figure 2. Theater Kickstarter campaign outcomes plotted as a function of launch date.
 
 ### Analysis of Outcomes Based on Goals
 The second analysis was of the Kickstarter outcomes based on their goals. The splitting of the category/subcategory data that had already been completed helped this analysis as well, but similarly was not absolutely necessary. Ranges were chosen for the goals which would allow the data to be more easily understood. The final result was the percentage of each play outcome as a function of the goal ranges. The goal ranges and the percentages can be seen on the data table shown in Figure 3. These values were displayed in a line plot, as shown in Figure 4.
 
-![Outcomes_vs_Goals_Table.png](kickstarter-analysis/Resources/Outcomes_vs_Goals_Table.png)
+![Outcomes_vs_Goals_Table.png](/Resources/Outcomes_vs_Goals_Table.png)
+
 Figure 3. Table of calculations for play Kickstarter outcomes as a function of the campaign's goal.
 
-![Outcomes_vs_Goals.png](kickstarter-analysis/Resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](/Resources/Outcomes_vs_Goals.png)
+
 Figure 4. Play Kickstarter outcomes plotted as a function of the campaign's goal.
 
 ### Challenges and Difficulties Encountered with Outcomes Based on Launch Date
